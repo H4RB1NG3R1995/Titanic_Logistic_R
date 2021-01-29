@@ -26,32 +26,4 @@ The moddel used is Binary Logistic Regression Model since it is a classification
 
 4 variables PassengerId, Cabin, Ticket, Name are dropped sice they are qualitative variables and also redundant from a business perspective.
 
-After running the model on the train dataset, the following results are obtained:
-1. Wald test p-value: 0
-
-2. Pseudo R-squared: McFadden 0.3335560 and  Adj.McFadden 0.3217581    
-                                 
-3. Lackfit deviance p-value: 0.9894678
-
-4. Variable Importance:     
-
-            Overall
-1. Pclass2  4.543623
-2. Pclass3  9.667960
-3. Sexmale 14.110246
-4. Age      5.110915
-5. SibSp    3.437483
-          
-5. AUCMetric:
-
-        Metric    Values
-1    threshold 0.3890254
-2  specificity 0.7807018
-3  sensitivity 0.8014572
-4          AUC 0.8550688
-5 AccuracyRate 0.7934905
-6         Gini 0.7101375
-       
-7. KS-Statistics: 0.580673
-
 Significant variables: Pclass2, Pclass3, Sexmale, Age, SibSp
