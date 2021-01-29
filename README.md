@@ -26,6 +26,7 @@ The moddel used is Binary Logistic Regression Model since it is a classification
 
 4 variables PassengerId, Cabin, Ticket, Name are dropped sice they are qualitative variables and also redundant from a business perspective.
 
-Significant variables: Pclass2, Pclass3, Sexmale, Age, SibSp
+Negatively Significant variables: Pclass2, Pclass3, Sexmale, Age, SibSp
+Positively Significant variables: None
 
-Interpretation: People belonging from a higher age group. passenger class 2 and 3, of gender male and having siblings and spouses had less chances of survival compared to people from other categories. 
+Interpretation: People belonging from a higher age group, passenger class 2 and 3, of gender male and having siblings and spouses had less chances of survival compared to people from other categories. 
