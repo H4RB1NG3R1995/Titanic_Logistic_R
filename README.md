@@ -29,4 +29,4 @@ The moddel used is Binary Logistic Regression Model since it is a classification
 Negatively Significant variables: Pclass2, Pclass3, Sexmale, Age, SibSp
 Positively Significant variables: None
 
-Interpretation: People belonging from a higher age group, passenger class 2 and 3, of gender male and having siblings and spouses had less chances of survival compared to people from other categories. 
+Interpretation: People belonging from a higher age group, passenger class 2 and 3, of gender male and having siblings and spouses were less likely to survive compared to people from other categories. 
